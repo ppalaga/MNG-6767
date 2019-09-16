@@ -12,6 +12,6 @@ import org.apache.maven.plugins.annotations.ResolutionScope;
 @Mojo(name = "hello", requiresDependencyResolution = ResolutionScope.NONE, defaultPhase = LifecyclePhase.VALIDATE)
 public class GroupIdResolutionMojo extends AbstractMojo {
     public void execute() throws MojoExecutionException, MojoFailureException {
-        getLog().info("Hello from 0.0.1-SNAPSHOT");
+        getLog().info("Hello from 0.0.2");
     }
 }
